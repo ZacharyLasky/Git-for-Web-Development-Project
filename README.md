@@ -1,43 +1,35 @@
-# Git for Web Development Project
-In this project you will be using the concepts learned in the Git for Web Development lesson to fork/clone/push/and submit a PR for each project during this sprint.
+# User Interface Project II: Great Idea Web Page With Flexbox
 
-This project consists of two parts:
+Now that you have experienced building a layout using `inline-block`.  Lets revisit the same HTML structure and refactor our first page with flex box module.  If you didn't finish yesterday's assignment, just start from scratch or use the solution code provided to you.
 
-## Part One:
-You will need to follow the Lambda School Git Workflow to add a file to this project follow the steps below:
+Once you have finished the home page using flex box module, go build the services page based on the [design file](design-files/services-desktop-design.png) provided to you.  This time you will need to structure your own HTML in addition to using flex box module.  You have been provided all the necessary images in the `img` folder.
 
-- [ ] Create your own version of this repo - Fork
-- [ ] Add your PM as a collaborator
-- [ ] Clone this repo
-- [ ] Create a branch `git checkout -b 'firstName-lastName'`
-  - [ ] Add a file to the project called `yourFirstName-yourLastName`.txt. This file can contain anything.
-  - [ ] Run your usual git commands for adding/commiting and pushing **Be sure to push to your branch!**
-- [ ] Create a Pull-Request to submit your work
-  - [ ] Use your own student fork as the base (compare across forks, base-fork -> master).
-  - [ ] Add your PM as a reviewer on the Pull-Request
-- [ ] PM then will count the Assignment as done by merging the HW back into master "STUDENT FORK".
+**Useful Resource: [CSS Tricks Flexbox Guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)**
 
-## Part Two:
-Go back and follow the same steps for your [UI-III-Flexbox project](https://github.com/LambdaSchool/UI-III-Flexbox) and your [User Interface - Great Idea Project](https://github.com/LambdaSchool/User-Interface).
+## To Get Started
 
-In order to do this, you **do not** need to create new forks of these projects. Follow the steps below for each project:
+* Fork the project to your GitHub account
+* Clone this project into a directory on your machine.
+* Open the code with your preferred integrated development environment (IDE).
+* Start on the objectives
 
-- [ ] Add your PM as a collaborator to your fork. 
-- [ ] Go into your project folder, make a new branch `firstname-lastname`
-- [ ] Add your first and last name to the README.md file in the project and save.
-- [ ] add/commit/and push to your own branch  **Be sure to push to your branch!**
-- [ ] Create a Pull-Request to submit your work
-  - [ ] Use your own student fork as the base (compare across forks, base-fork -> master).
-  - [ ] Add your PM as a reviewer on the Pull-Request
-- [ ] PM then will count the Assignment as done by merging the HW back into master "STUDENT FORK".
+[Click this link to learn how to use git on this project](https://youtu.be/8UQYTQzzNYM)  
 
-## Stretch
-- [ ] While the processes learned here will set you up to be successful in most situations, they are just the tip of the iceberg in learning Git. Independantly research the following topics to learn more about Git.
-  - [ ] Research and understand what a `merge conflict` is and how to resolve it.
-  - [ ] Reseach the Git commands `pull`, `rebase`, `merge`. These commands will allow you to bring in changes that other developers push to the master branch.
-  - [ ] Reseach the Git commands `reset `, `revert`, `clean`. These commands will allow you to go back and ammends previous commits you have made.
+## Objectives
 
-- [ ] Research and set up a Graphical User Interface (GUI) Git console. 
+* [ ] Home Page Refactor:
+  * Note that the provided HTML is blank.  This is because I want you to use your code from yesterday if possible.  If you didn't finish, that's fine, just use the solution from yesterday
+  * Refactor the home page layout with flexbox where `inline-block` was used before.
+  * In your navigation elements, point the services `<a href=""></a>` to `services.html`
 
-- [ ] Research and setup SSH keys with Github, so that you do not need to input your username/password each time you push. 
+* [ ] Services Page Build:
+  * Update the title in your newly copied services page to say `Great Idea! - Services`
+  * Using the provided [design file](design-files/services-desktop-design.png), create the services page layout using flexbox and box model.
+  * Wrap the great idea logo in an anchor tag and point the `href` to `index.html`
+  
+  **Remember, you should continue using box model properties this whole time.  Flexbox is only used for bigger layout pieces.  You will still need content width, padding, border, and margins to succeed.**
 
+## Stretch Goals
+
+* [ ] Create another page based on one of the navigation items in addition to services.  Try to create a layout that follows the patterns of the first two designs but with your own creative twist.  Use lorem ipsum text for all your content.
+* [ ] Introduce media queries into your services page to create a mobile view that stacks all the boxes on top of each other on phone but looks like the layout file on desktop.

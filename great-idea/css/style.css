@@ -1,0 +1,173 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+
+header {
+	margin-top: 20px;
+	width: 1250px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.innovation {
+	height: 600px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.textAndButton {
+	margin-left: 200px;
+	width: 500px;
+	font-size: 100px;
+}
+.circle {
+	width: 500px;
+}
+button {
+	font-size: 60px
+}
+
+.featAbout {
+	height: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+
+
+.pars {
+	height: 100px;
+	width: 1000px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	margin-left: 200px;
+}
+
+.paragraph1 {
+	width: 400px;
+	margin: 20px;
+}
+.paragraph2 {
+	width: 400px;
+	margin: 20px;
+}
+
+.longImg {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.spv {
+	height: 100px;
+	width: 1000px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	
+}
+
+.p456 {
+	height: 100px;
+	width: 1000px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.p4 {
+	
+	width: 300px;
+}
+.p5 {
+	
+	width: 300px;
+}
+.p6 {
+	
+	width: 300px;
+}
+
+.contact {
+	margin-left: 200px
+}
+
+.somewhere {
+	margin-left: 200px;
+}
+
+.phone {
+	margin-left: 200px;
+}
+
+.cr {
+	margin-left: 700px;
+}
